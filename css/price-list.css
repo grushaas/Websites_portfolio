@@ -1,0 +1,19 @@
+body {
+    overflow-y: hidden;
+}
+
+
+.btn {
+    width: 220px;
+    justify-content: center;
+}
+
+.color-green {
+    background: #309e4a;
+    width: 850px;
+    border-radius: 10px;
+}
+
+#footer {
+    margin-top: 19.4%;
+}
