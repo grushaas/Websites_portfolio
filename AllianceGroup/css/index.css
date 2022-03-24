@@ -18,5 +18,28 @@
     width: 678px;
     height: 478px;
     background: #E0E0E0;
-    border-radius: 88px;
+    border-radius: 5px;
+}
+
+@media (max-width: 1024px) {
+    .descript {
+        font-size: 20px
+    }
+    
+    .box-to-contacts {
+        width: 465px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .box-to-contacts {
+        width: 350px;
+    }
+}
+@media (max-width: 425px) {
+    
+    .box-to-contacts {
+        width: 350px;
+    }
 }

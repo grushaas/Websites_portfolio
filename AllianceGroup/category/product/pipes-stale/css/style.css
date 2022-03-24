@@ -1,0 +1,13 @@
+.desc-box {
+    width: 10rem;
+}
+
+.desc {
+    font-size: 20px;
+}
+
+.back {
+    position: relative;
+    top: 48%;
+    left: 100%
+}
