@@ -7,15 +7,15 @@ html {
 }
 /* Слайдер */
 .slider{
-    max-width: 60%;
+    max-width: 80%;
     position: relative;
-    height: 300px;
+    max-height: 400px;
 }
 /* Картинка масштабируется по отношению к родительскому элементу */
 .slider .item img {
     object-fit: cover;
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 /* Кнопки вперед и назад */
 .slider .previous, .slider .next {
@@ -57,10 +57,13 @@ html {
 .all {
     margin-top: 5%;
     display: grid;
-    place-items: center;
-    grid-template-columns: repeat(2, 1fr);
+    place-items: left;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 3%;
     grid-content: end;
 }
+
 
 /*Footer and Header*/
 
